@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="org.example.gui.HostGameScreen">
+  <grid id="27dc6" binding="Panel" layout-manager="GridLayoutManager" row-count="15" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="523" height="412"/>
+    </constraints>
+    <properties>
+      <background color="-12758357"/>
+      <font name="Arial Black"/>
+      <preferredSize width="640" height="480"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="bd478" class="javax.swing.JLabel" binding="Title">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="6" vsize-policy="2" hsize-policy="2" anchor="1" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <alignmentY value="0.5"/>
+          <font name="Arial Black" size="26" style="1"/>
+          <foreground color="-1642497"/>
+          <text value="ROBOT WORLDS"/>
+          <verticalAlignment value="0"/>
+          <verticalTextPosition value="0"/>
+        </properties>
+      </component>
+      <component id="5b74e" class="javax.swing.JTextField" binding="PortField">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="6" anchor="1" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="true"/>
+          <selectedTextColor color="-656897"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <vspacer id="e714f">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="6" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="616c6" class="javax.swing.JButton" binding="ExitBtn">
+        <constraints>
+          <grid row="13" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12894135"/>
+          <contentAreaFilled value="true"/>
+          <enabled value="true"/>
+          <focusPainted value="false"/>
+          <focusable value="false"/>
+          <font name="Arial Black" style="0"/>
+          <foreground color="-1904897"/>
+          <hideActionText value="false"/>
+          <label value="EXIT"/>
+          <opaque value="true"/>
+          <text value="EXIT"/>
+        </properties>
+      </component>
+      <vspacer id="86bae">
+        <constraints>
+          <grid row="14" column="0" row-span="1" col-span="6" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="96db" class="javax.swing.JTextField" binding="IPAddress">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="6" anchor="1" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="true"/>
+          <selectedTextColor color="-656897"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="d34c1" class="javax.swing.JLabel" binding="PortText">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <foreground color="-1773825"/>
+          <text value="Port Number"/>
+        </properties>
+      </component>
+      <component id="40b6c" class="javax.swing.JLabel" binding="IPText">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <foreground color="-1773825"/>
+          <text value="IP Address"/>
+        </properties>
+      </component>
+      <vspacer id="2f919">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="6" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="18956" class="javax.swing.JLabel" binding="Type">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="20" style="1"/>
+          <foreground color="-1708289"/>
+          <text value="~ HOSTING GAME ~"/>
+        </properties>
+      </component>
+      <component id="dcdb9" class="javax.swing.JButton" binding="StartGameBtn">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15131100"/>
+          <font style="1"/>
+          <foreground color="-1"/>
+          <text value="LAUNCH"/>
+        </properties>
+      </component>
+      <vspacer id="259bb">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="6" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="7c552" class="javax.swing.JRadioButton" binding="fourNumPlayerBtn">
+        <constraints>
+          <grid row="9" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14407889"/>
+          <foreground color="-394759"/>
+          <text value="4 Players"/>
+        </properties>
+      </component>
+      <component id="9e4ff" class="javax.swing.JRadioButton" binding="threeNumPlayerBtn">
+        <constraints>
+          <grid row="9" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14407889"/>
+          <foreground color="-394759"/>
+          <text value="3 Players"/>
+        </properties>
+      </component>
+      <component id="70bed" class="javax.swing.JLabel" binding="NumPlayersText">
+        <constraints>
+          <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <foreground color="-1773825"/>
+          <text value="Number of Players"/>
+        </properties>
+      </component>
+      <component id="9886e" class="javax.swing.JRadioButton" binding="twoNumPlayerBtn">
+        <constraints>
+          <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14407889"/>
+          <foreground color="-394759"/>
+          <text value="2 Players"/>
+        </properties>
+      </component>
+      <hspacer id="279ae">
+        <constraints>
+          <grid row="9" column="5" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="f27fe">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="6e98f">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>
